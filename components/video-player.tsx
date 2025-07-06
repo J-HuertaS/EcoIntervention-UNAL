@@ -15,7 +15,7 @@ const videos = [
     // For YouTube Shorts, we'll use the direct link instead of embed
     youtubeUrl: "https://www.youtube.com/shorts/1aQVbnsUoZ4",
     thumbnail: "https://img.youtube.com/vi/YOUR_VIDEO_ID_1/maxresdefault.jpg",
-    type: "interview",
+    type: "introduction",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const videos = [
     description: "First trivia competition done in the UNAL!",
     youtubeUrl: "https://youtube.com/shorts/Yk9fbxtGm8Y",
     thumbnail: "https://img.youtube.com/vi/Yk9fbxtGm8Y/maxresdefault.jpg",
-    type: "workshop",
+    type: "trivia",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ const videos = [
     description: "Trivia competition between UNAL students!",
     youtubeUrl: "https://youtube.com/shorts/hT2d0G2bmcs?feature=share",
     thumbnail: "https://img.youtube.com/vi/Yk9fbxtGm8Y/maxresdefault.jpg",
-    type: "workshop",
+    type: "trivia",
   },
   {
     id: 5,
@@ -71,7 +71,7 @@ const videos = [
     description: "Trivia competition between UNAL students!",
     youtubeUrl: "https://youtube.com/shorts/QMMp4rWFXxA?feature=share",
     thumbnail: "https://img.youtube.com/vi/Yk9fbxtGm8Y/maxresdefault.jpg",
-    type: "workshop",
+    type: "trivia",
   },
   {
     id: 8,
