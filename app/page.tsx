@@ -83,6 +83,10 @@ export default function EcointerventionUNAL() {
     return total > 0 ? Math.round((value / total) * 100) : 0
   }
 
+  const getPercentageFull = (value: number, total: number) => {
+    return total > 0 ? ((value / total) * 100).toFixed(2) : "0.00"
+  }
+
   // Helper function to get top environmental issues
   const getTopEnvironmentalIssues = () => {
     if (!surveyData?.environmentalIssues) return []
@@ -325,7 +329,7 @@ export default function EcointerventionUNAL() {
                     <CardTitle className="text-3xl font-bold text-blue-600">
                       {getPercentage(surveyData.containerWillingness?.["Yes"] || 0, surveyData.totalResponses)}%
                     </CardTitle>
-                    <CardDescription>Would Bring Own Container</CardDescription>
+                    <CardDescription>Would Bring Their Own Container</CardDescription>
                   </CardHeader>
                 </Card>
                 <Card>
@@ -350,7 +354,7 @@ export default function EcointerventionUNAL() {
                       )}
                       %
                     </CardTitle>
-                    <CardDescription>Open to Eco-Friendly Products</CardDescription>
+                    <CardDescription>Are Open to Eco-Friendly Products</CardDescription>
                   </CardHeader>
                 </Card>
               </div>
@@ -369,7 +373,7 @@ export default function EcointerventionUNAL() {
                       <div key={frequency}>
                         <div className="flex justify-between mb-2">
                           <span className="capitalize">{frequency}</span>
-                          <span>{getPercentage(count as number, surveyData.totalResponses)}%</span>
+                          <span>{getPercentageFull(count as number, surveyData.totalResponses)}%</span>
                         </div>
                         <Progress value={getPercentage(count as number, surveyData.totalResponses)} className="h-2" />
                       </div>
@@ -389,7 +393,7 @@ export default function EcointerventionUNAL() {
                       <div key={transport}>
                         <div className="flex justify-between mb-2">
                           <span className="text-sm">{transport}</span>
-                          <span>{getPercentage(count as number, surveyData.totalResponses)}%</span>
+                          <span>{getPercentageFull(count as number, surveyData.totalResponses)}%</span>
                         </div>
                         <Progress value={getPercentage(count as number, surveyData.totalResponses)} className="h-2" />
                       </div>
@@ -412,7 +416,7 @@ export default function EcointerventionUNAL() {
                       <div key={practice}>
                         <div className="flex justify-between mb-2">
                           <span className="text-sm">{practice}</span>
-                          <span>{getPercentage(count as number, surveyData.totalResponses)}%</span>
+                          <span>{getPercentageFull(count as number, surveyData.totalResponses)}%</span>
                         </div>
                         <Progress value={getPercentage(count as number, surveyData.totalResponses)} className="h-2" />
                       </div>
@@ -433,7 +437,7 @@ export default function EcointerventionUNAL() {
                       <div key={willingness}>
                         <div className="flex justify-between mb-2">
                           <span>{willingness}</span>
-                          <span>{getPercentage(count as number, surveyData.totalResponses)}%</span>
+                          <span>{getPercentageFull(count as number, surveyData.totalResponses)}%</span>
                         </div>
                         <Progress value={getPercentage(count as number, surveyData.totalResponses)} className="h-2" />
                       </div>
