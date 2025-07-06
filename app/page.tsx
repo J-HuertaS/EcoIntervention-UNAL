@@ -138,7 +138,7 @@ export default function EcointerventionUNAL() {
             innovative Ecological Week that combines education, action, and community engagement.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#journey">
+            <a href="#about-us">
               <Button size="lg" className="bg-green-600 hover:bg-green-700">
               <BookOpen className="mr-2 h-5 w-5" /> 
               Learn More
@@ -159,7 +159,7 @@ export default function EcointerventionUNAL() {
       </section>
 
       {/* Project Overview */}
-      <section className="py-16 px-4 bg-white">
+      <section id="about-us" className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center">
