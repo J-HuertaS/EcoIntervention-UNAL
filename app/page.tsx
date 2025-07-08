@@ -224,7 +224,7 @@ export default function EcointerventionUNAL() {
               <CardContent className="space-y-4">
                 <p className="text-gray-700 leading-relaxed">
                   A potential solution involves implementing a series of educational and participatory activities such
-                  as quizzes, eco-fairs, surveys, workshops, and talks, designed to engage both students and faculty.
+                  as quizzes, surveys, workshops, and talks, designed to engage both students and faculty.
                   These initiatives would focus on <strong>responsible consumption</strong>, reuse, and sustainable
                   habits.
                 </p>
@@ -406,7 +406,7 @@ export default function EcointerventionUNAL() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Implementing workshops, conferences, and eco-fairs to promote reusing and conscious consumption.
+                  Implementing workshops, activities and surveys to promote reusing and conscious consumption.
                 </p>
               </CardContent>
             </Card>
