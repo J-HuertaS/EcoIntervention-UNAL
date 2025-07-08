@@ -34,7 +34,7 @@ const videos = [
     type: "interview",
   },
   {
-    id: 3,
+    id: 4,
     title: "Student Interview #2",
     description: "Discussion about consumption habits and environmental impact",
     youtubeUrl: "https://youtube.com/shorts/TK0rimVUN0M?feature=share",
@@ -42,7 +42,7 @@ const videos = [
     type: "interview",
   },
   {
-    id: 4,
+    id: 5,
     title: "Trivia Activity #2",
     description: "Trivia competition between UNAL students!",
     youtubeUrl: "https://youtube.com/shorts/hT2d0G2bmcs?feature=share",
@@ -50,7 +50,7 @@ const videos = [
     type: "trivia",
   },
   {
-    id: 5,
+    id: 6,
     title: "Student Interview #3",
     description: "Discussion about consumption habits and environmental impact",
     youtubeUrl: "https://youtube.com/shorts/Hu1TUidAsTw?feature=share",
@@ -58,7 +58,7 @@ const videos = [
     type: "interview",
   },
   {
-    id: 6,
+    id: 7,
     title: "Student Interview #4",
     description: "Discussion about consumption habits and environmental impact",
     youtubeUrl: "https://youtube.com/shorts/mQRN0wPI68o?feature=share",
@@ -66,7 +66,7 @@ const videos = [
     type: "interview",
   },
   {
-    id: 7,
+    id: 8,
     title: "Trivia Activity #3",
     description: "Trivia competition between UNAL students!",
     youtubeUrl: "https://youtube.com/shorts/QMMp4rWFXxA?feature=share",
@@ -74,7 +74,7 @@ const videos = [
     type: "trivia",
   },
   {
-    id: 8,
+    id: 9,
     title: "Student Interview #5",
     description: "Discussion about consumption habits and environmental impact",
     youtubeUrl: "https://youtube.com/shorts/oZp-Kgu5sUs?feature=share",
@@ -82,7 +82,7 @@ const videos = [
     type: "interview",
   },
   {
-    id: 9,
+    id: 10,
     title: "Student Interview #6",
     description: "Discussion about consumption habits and environmental impact",
     youtubeUrl: "https://youtube.com/shorts/-B4Xbq2Qr7Y?feature=share",
